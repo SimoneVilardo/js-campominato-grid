@@ -22,7 +22,7 @@ bottone.addEventListener('click', function(){
     // CONDIZIONE PER FAR APPARIRE LE VARIE GRIGLIE IN BASE ALLA DIFFICOLTA SCELTA
     if(difficolta === 'Facile'){
    
-        for( let i = 0; i < 49; i++){
+        for( let i = 0; i < 100; i++){
             //CREO IL SINGOLO QUADRATO
             let quadrato = creazioneQuadrato();
             // AGGIUNGO UNA CLASSE 
@@ -61,7 +61,7 @@ bottone.addEventListener('click', function(){
         };
 
     } else {
-        for( let i = 0; i < 100; i++){
+        for( let i = 0; i < 49; i++){
             //CREO IL SINGOLO QUADRATO
             let quadrato = creazioneQuadrato();
             // AGGIUNGO UNA CLASSE 

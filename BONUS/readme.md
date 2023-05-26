@@ -7,6 +7,6 @@ SOLUZIONE:
 
 1.creo all'interno del click del bottone un if 
     1.1 recupero la select
-    1.2 SE seleziono la difficoltà facile e clicco play inserirà la griglia con 49 quadrati
+    1.2 SE seleziono la difficoltà facile e clicco play inserirà la griglia con 100 quadrati
     1.3 ALTRIMENTI SE seleziono la difficoltà normale e clicco play inserirà la griglia con 81 quadrati
-    1.4 ALTRIMENTI seleziono la difficoltà difficile e clicco play inserirà la griglia con 100 quadrati
+    1.4 ALTRIMENTI seleziono la difficoltà difficile e clicco play inserirà la griglia con 49 quadrati

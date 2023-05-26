@@ -8,13 +8,14 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* HEADER */
-header, #btn{
+header, #btn, footer, a{
     background-color: black;
     color: goldenrod;
 }
 
-header{
+/* HEADER */
+
+header, footer{
     display: flex;
     justify-content: space-around;
     padding: 10px;
@@ -38,19 +39,19 @@ main{
     justify-content: center;
     align-items: center;
     background-color: goldenrod;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 #griglia{
     display: flex;
     flex-wrap: wrap;
-    width: 900px;
-    height: 900px;
+    width: 530px;
+    height: 530px;
 }
 
 .quadrato{
-    width: calc(900px / 10);
-    height: calc(900px / 10);
+    width: calc(530px / 10);
+    height: calc(530px / 10);
     border: 2px solid grey;
     display: flex;
     justify-content: center;

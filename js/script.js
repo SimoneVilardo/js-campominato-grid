@@ -16,6 +16,10 @@ const griglia = document.getElementById('griglia');
 
 //FACCIO IN MODO CHE CON IN CLICK APPAIA LA GRIGLIA
 bottone.addEventListener('click', function(){
+
+    // SVUOTO LA GRIGLIA 
+    griglia.innerHTML = '';
+
     for( let i = 0; i < 100; i++){
         //CREO IL SINGOLO QUADRATO
         let quadrato = creazioneQuadrato();
@@ -29,7 +33,6 @@ bottone.addEventListener('click', function(){
         
         // MOSTRO TUTTO A SCHERMO CON .APPEND()
         griglia.append(quadrato);
-        bottone.classList.add('d-none')
     };
 
 })

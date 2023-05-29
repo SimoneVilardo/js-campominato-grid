@@ -50,8 +50,8 @@ main{
 }
 
 .quadrato{
-    width: calc(530px / 10);
-    height: calc(530px / 10);
+    width: calc(100% / 10);
+    height: calc(100% / 10);
     border: 2px solid grey;
     display: flex;
     justify-content: center;
